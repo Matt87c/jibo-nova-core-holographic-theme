@@ -25,7 +25,7 @@ Select **None** in BEacon to restore the original Jibo eye, or switch to another
 
 This is a **visual-only** theme. It contains no executable code, network addresses, credentials, or personal setup information. It modifies only face appearance through the official declarative theme contract.
 
-The native Jibo renderer still controls gaze, blink animation, listening behavior, eye geometry, and state changes. The images will deform dynamically on the robot; no physical-device regression test was done here.
+The native Jibo renderer still controls gaze, blink animation, listening behavior, eye geometry, and state changes. The images will deform dynamically on the robot; maintainer reports testing on physical Jibo; the full acceptance checklist has not been independently verified.
 
 | File | Purpose |
 | --- | --- |
@@ -36,3 +36,9 @@ The native Jibo renderer still controls gaze, blink animation, listening behavio
 | `manifest.json` | Package identifier and version |
 
 Theme format: https://github.com/Jibo-Revival-Group/BEam/blob/master/docs/themes.md
+
+## Stable community release
+
+Latest stable release: https://github.com/Matt87c/jibo-nova-core-holographic-theme/releases/latest
+
+Version: 1.0.2. The maintainer reports testing this theme on a physical Jibo. Detailed test scenarios in docs/HARDWARE_TEST.md remain unverified unless recorded. This is a community theme by Matt87c, not an official 5x1 or BEacon Store listing.
